@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #010202;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bgimg {
+    background: no-repeat right url("/img/cover.png");
+}
+
+.header {
+    max-width: 1146px;
+    margin: auto;
+    padding: 56px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+.userimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.username {
+    padding-right: 15px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section {
+    max-width: 1146px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 300px;
+}
+
+.info {
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    color: #E5E5E5;
+    opacity: 0.4;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.info>span {
+    padding-right: 20px;
+}
+
+.promo-info {
+    color: #ffffff;
+    max-width: 460px;
+    font-size: 21px;
+    padding-bottom: 36px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.preorder {
+    background: #EA6E20;
+    border-radius: 6px;
+    padding: 10px 25px 12px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.see {
+    background: #2F2F2F;
+    border-radius: 6px;
+    padding: 11px 26px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.buttontxt {
+    padding-left: 10px;
+}
+
+.img {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    section {
+        padding: 10%;
+        
+    }
+    .promo, .block {
+        text-align: center;
+    }
+    .block {
+        margin: 0 33%;
+    }
+    .film-logo {
+        width: 90%;
+    }
+    .bgimg {
+        background: #000;
+        background-size: 50%;
+    }
+    .promo-info {
+        font-size: 16px;
+    }
+    .img {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (max-width: 769px) {
+    .buttons {
+        margin: 0 -46%;
+    }
+    .film-logo {
+        width: 100%;
+    }
+}
+
+@media (max-width: 415px) {
+    .promo {
+        width: 100%;
+    }
+    .block {
+        margin: 0 5%;
+    }
+    .buttons {
+        margin: 0;
+    }
+}
+
+@media (max-width: 321px) {
+    .buttons {
+        margin: 0 -20%;
+    }
+}
+
